@@ -1,0 +1,1067 @@
+local t1 = {}
+local t2 = {
+	value1 = game:GetService("TweenService"),
+	value2 = game:GetService("Lighting"),
+	value3 = game:GetService("Players")
+}
+
+game:GetService("SoundService")
+t2.value4 = game:GetService("TextChatService")
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+t2.value5 = t2.value3.LocalPlayer
+
+local hui
+
+if gethui then
+	hui = gethui()
+else
+	t1.value3 = syn
+	t1.value1 = t1.value3
+
+	if t1.value3 then
+		t1.value1 = syn.protect_gui
+	end
+
+	if t1.value1 then
+		t1.value2 = Instance.new("ScreenGui")
+		syn.protect_gui(t1.value2)
+		t1.value4 = game:GetService("CoreGui")
+		t1.value2.Parent = t1.value4
+		hui = t1.value2
+	else
+		hui = t2.value5:FindFirstChildOfClass("PlayerGui")
+	end
+end
+
+t1.value2 = ReplicatedStorage:WaitForChild("RE", 5)
+
+local value2 = t1.value2
+
+if value2 then
+	value2 = t1.value2:WaitForChild("1RPNam1eTex1t", 5)
+end
+
+t1.value4 = value2 or nil
+
+local value22 = t1.value2
+
+t2.value6 = t1.value4
+
+if t1.value2 then
+	value22 = t1.value2:WaitForChild("1RPNam1eColo1r", 5)
+end
+
+t2.value7 = value22 or nil
+
+local color3 = Color3.fromRGB(12, 10, 20)
+
+t2.value8 = Color3.fromRGB(26, 16, 38)
+t2.value9 = Color3.fromRGB(255, 0, 180)
+t2.value10 = Color3.fromRGB(140, 0, 255)
+
+local color32 = Color3.fromRGB(250, 240, 255)
+local color33 = Color3.fromRGB(160, 150, 180)
+
+t2.value11 = Instance.new("BlurEffect", t2.value2)
+t2.value11.Size = 0
+
+if hui:FindFirstChild("VÆLOR V3 SPAMMER") then
+	hui["VÆLOR ULTRA V3"]:Destroy()
+end
+
+t2.value12 = Instance.new("ScreenGui")
+t2.value12.Name = "VÆLOR ULTRA SPAM V3"
+t2.value12.Parent = hui
+t2.value12.IgnoreGuiInset = true
+t2.value12.ResetOnSpawn = false
+
+local function v10(p1)
+	if not p1 then
+		return
+	end
+
+	local UIGradient = Instance.new("UIGradient", p1)
+
+	UIGradient.Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, t2.value10), ColorSequenceKeypoint.new(1, t2.value9) })
+	task.spawn(function()
+		local rotation = 0
+
+		while true do
+			local Parent = p1
+
+			if Parent then
+				Parent = p1.Parent
+			end
+
+			if not Parent then
+				return
+			end
+
+			rotation = (rotation + 2) % 360
+			UIGradient.Rotation = rotation
+			task.wait(0.02)
+		end
+	end)
+end
+
+t2.value13 = Instance.new("Frame", t2.value12)
+t2.value13.Size = UDim2.new(0, 440, 0, 260)
+t2.value13.Position = UDim2.new(0.5, -220, 0.5, -130)
+t2.value13.BackgroundColor3 = color3
+Instance.new("UICorner", t2.value13).CornerRadius = UDim.new(0, 14)
+t2.value14 = Instance.new("UIStroke", t2.value13)
+t2.value14.Thickness = 2
+v10(t2.value14)
+
+local TextLabel = Instance.new("TextLabel", t2.value13)
+
+TextLabel.Size = UDim2.new(1, 0, 0, 40)
+TextLabel.Position = UDim2.new(0, 0, 0, 30)
+TextLabel.Text = "VÆLOR SPAMMER V3"
+TextLabel.Font = Enum.Font.GothamBlack
+TextLabel.TextColor3 = color32
+TextLabel.TextSize = 22
+TextLabel.BackgroundTransparency = 1
+
+local Frame = Instance.new("Frame", t2.value13)
+
+Frame.Size = UDim2.new(0.8, 0, 0, 6)
+Frame.Position = UDim2.new(0.1, 0, 0, 130)
+Frame.BackgroundColor3 = Color3.fromRGB(30, 20, 40)
+Instance.new("UICorner", Frame).CornerRadius = UDim.new(0, 3)
+t2.value15 = Instance.new("Frame", Frame)
+t2.value15.Size = UDim2.new(0, 0, 1, 0)
+t2.value15.BackgroundColor3 = t2.value9
+Instance.new("UICorner", t2.value15).CornerRadius = UDim.new(0, 3)
+t2.value16 = Instance.new("TextLabel", t2.value13)
+t2.value16.Size = UDim2.new(1, 0, 0, 20)
+t2.value16.Position = UDim2.new(0, 0, 0, 150)
+t2.value16.Text = "Status: Authenticating Matrix Arrays..."
+t2.value16.Font = Enum.Font.Code
+t2.value16.TextColor3 = color33
+t2.value16.TextSize = 11
+t2.value16.BackgroundTransparency = 1
+t2.value17 = Instance.new("Frame", t2.value12)
+t2.value17.Size = UDim2.new(0, 360, 0, 240)
+t2.value17.Position = UDim2.new(0.5, -180, 0.5, -120)
+t2.value17.BackgroundColor3 = color3
+t2.value17.BackgroundTransparency = 1
+t2.value17.Visible = false
+Instance.new("UICorner", t2.value17).CornerRadius = UDim.new(0, 18)
+t2.value18 = Instance.new("UIStroke", t2.value17)
+t2.value18.Thickness = 2.5
+t2.value18.Transparency = 1
+v10(t2.value18)
+
+local TextLabel2 = Instance.new("TextLabel", t2.value17)
+
+TextLabel2.Size = UDim2.new(1, 0, 0, 35)
+TextLabel2.Position = UDim2.new(0, 0, 0, 20)
+TextLabel2.Text = "SECURITY VERIFICATION"
+TextLabel2.Font = Enum.Font.GothamBlack
+TextLabel2.TextColor3 = color32
+TextLabel2.TextSize = 18
+TextLabel2.TextTransparency = 1
+TextLabel2.BackgroundTransparency = 1
+
+local TextLabel3 = Instance.new("TextLabel", t2.value17)
+
+TextLabel3.Size = UDim2.new(1, 0, 0, 20)
+TextLabel3.Position = UDim2.new(0, 0, 0, 50)
+TextLabel3.Text = "Enter your premium credential passport below"
+TextLabel3.Font = Enum.Font.GothamMedium
+TextLabel3.TextColor3 = color33
+TextLabel3.TextSize = 11
+TextLabel3.TextTransparency = 1
+TextLabel3.BackgroundTransparency = 1
+
+local TextBox = Instance.new("TextBox", t2.value17)
+
+TextBox.Size = UDim2.new(0.85, 0, 0, 45)
+TextBox.Position = UDim2.new(0.075, 0, 0, 95)
+TextBox.PlaceholderText = "ENTER ACCESS KEY..."
+TextBox.PlaceholderColor3 = Color3.fromRGB(110, 100, 130)
+TextBox.BackgroundColor3 = t2.value8
+TextBox.BackgroundTransparency = 1
+TextBox.TextColor3 = color32
+TextBox.TextTransparency = 1
+TextBox.Font = Enum.Font.Code
+TextBox.TextSize = 12
+TextBox.BorderSizePixel = 0
+Instance.new("UICorner", TextBox).CornerRadius = UDim.new(0, 10)
+
+local UIStroke = Instance.new("UIStroke", TextBox)
+
+UIStroke.Thickness = 1
+UIStroke.Color = Color3.fromRGB(60, 45, 80)
+UIStroke.Transparency = 1
+
+local TextButton = Instance.new("TextButton", t2.value17)
+
+TextButton.Size = UDim2.new(0.85, 0, 0, 45)
+TextButton.Position = UDim2.new(0.075, 0, 0, 165)
+TextButton.Text = "LORD VÆLOR"
+TextButton.BackgroundColor3 = t2.value8
+TextButton.BackgroundTransparency = 1
+TextButton.TextColor3 = color32
+TextButton.TextTransparency = 1
+TextButton.Font = Enum.Font.GothamBlack
+TextButton.TextSize = 12
+Instance.new("UICorner", TextButton).CornerRadius = UDim.new(0, 10)
+
+local UIStroke2 = Instance.new("UIStroke", TextButton)
+
+UIStroke2.Thickness = 1.5
+UIStroke2.Transparency = 1
+v10(UIStroke2)
+t2.value19 = Instance.new("Frame", t2.value12)
+t2.value19.Size = UDim2.new(0, 340, 0, 340)
+t2.value19.Position = UDim2.new(0.5, -170, 0.5, -170)
+t2.value19.BackgroundColor3 = color3
+t2.value19.BackgroundTransparency = 1
+t2.value19.Visible = false
+Instance.new("UICorner", t2.value19).CornerRadius = UDim.new(0, 18)
+
+local UIStroke3 = Instance.new("UIStroke", t2.value19)
+
+UIStroke3.Thickness = 2.5
+UIStroke3.Transparency = 1
+v10(UIStroke3)
+t2.value20 = Instance.new("ImageLabel", t2.value19)
+t2.value20.Size = UDim2.new(0, 56, 0, 56)
+t2.value20.Position = UDim2.new(0, 25, 0, 25)
+t2.value20.BackgroundColor3 = t2.value8
+t2.value20.BackgroundTransparency = 1
+t2.value20.ImageTransparency = 1
+t2.value20.BorderSizePixel = 0
+Instance.new("UICorner", t2.value20).CornerRadius = UDim.new(0, 12)
+pcall(function()
+	t2.value20.Image = t2.value3:GetUserThumbnailAsync(t2.value5.UserId, Enum.ThumbnailType.HeadShot, Enum.ThumbnailSize.Size150x150)
+end)
+
+local TextLabel4 = Instance.new("TextLabel", t2.value19)
+
+TextLabel4.Size = UDim2.new(0, 220, 0, 56)
+TextLabel4.Position = UDim2.new(0, 93, 0, 25)
+TextLabel4.Text = "Welcome,\n" .. t2.value5.DisplayName
+TextLabel4.Font = Enum.Font.GothamBold
+TextLabel4.TextColor3 = color32
+TextLabel4.TextSize = 16
+TextLabel4.TextTransparency = 1
+TextLabel4.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel4.BackgroundTransparency = 1
+
+local TextLabel5 = Instance.new("TextLabel", t2.value19)
+
+TextLabel5.Size = UDim2.new(1, -50, 0, 25)
+TextLabel5.Position = UDim2.new(0, 25, 0, 110)
+TextLabel5.Text = "The Ultimate Spammer made by N0T_Z0RO100"
+TextLabel5.Font = Enum.Font.GothamMedium
+TextLabel5.TextColor3 = t2.value9
+TextLabel5.TextSize = 14
+TextLabel5.TextTransparency = 1
+TextLabel5.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel5.BackgroundTransparency = 1
+
+local TextLabel6 = Instance.new("TextLabel", t2.value19)
+
+TextLabel6.Size = UDim2.new(1, -50, 0, 20)
+TextLabel6.Position = UDim2.new(0, 25, 0, 135)
+TextLabel6.Text = "Made by N0T_Z0RO100"
+TextLabel6.Font = Enum.Font.Code
+TextLabel6.TextColor3 = color33
+TextLabel6.TextSize = 12
+TextLabel6.TextTransparency = 1
+TextLabel6.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel6.BackgroundTransparency = 1
+
+local TextLabel7 = Instance.new("TextLabel", t2.value19)
+
+TextLabel7.Size = UDim2.new(1, -50, 0, 20)
+TextLabel7.Position = UDim2.new(0, 25, 0, 160)
+TextLabel7.Text = "this @ prefix is recommended to be used!"
+TextLabel7.Font = Enum.Font.GothamBold
+TextLabel7.TextColor3 = Color3.fromRGB(0, 220, 255)
+TextLabel7.TextSize = 12
+TextLabel7.TextTransparency = 1
+TextLabel7.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel7.BackgroundTransparency = 1
+
+local TextButton2 = Instance.new("TextButton", t2.value19)
+
+TextButton2.Size = UDim2.new(1, -50, 0, 50)
+TextButton2.Position = UDim2.new(0, 25, 0, 250)
+TextButton2.Text = "ENGAGE TRANSMISSION MATRIX"
+TextButton2.BackgroundColor3 = t2.value8
+TextButton2.BackgroundTransparency = 1
+TextButton2.TextColor3 = color32
+TextButton2.TextTransparency = 1
+TextButton2.Font = Enum.Font.GothamBlack
+TextButton2.TextSize = 13
+Instance.new("UICorner", TextButton2).CornerRadius = UDim.new(0, 10)
+
+local UIStroke4 = Instance.new("UIStroke", TextButton2)
+
+UIStroke4.Thickness = 1.5
+UIStroke4.Transparency = 1
+v10(UIStroke4)
+
+function t2.value21(p2)
+	p2.Visible = true
+
+	local value1 = t2.value1
+	local tweenInfoNew = TweenInfo.new
+	local Quad = Enum.EasingStyle.Quad
+	local Enum_ = Enum
+
+	value1.Create(value1, p2, tweenInfoNew(0.4, Quad, Enum_.EasingDirection.Out), {
+		BackgroundTransparency = 0.25
+	}):Play()
+
+	local GetDescendants = p2.GetDescendants
+
+	for _, v in pairs(GetDescendants(p2)) do
+		if v:IsA("UIStroke") then
+			local value12 = t2.value1
+			local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+
+			value12.Create(value12, v, tweenInfo, {
+				Transparency = 0
+			}):Play()
+		elseif v:IsA("TextLabel") then
+			local value12 = t2.value1
+			local tweenInfoNew2 = TweenInfo.new
+			local Quad2 = Enum.EasingStyle.Quad
+			local EasingDirection = Enum.EasingDirection
+
+			value12.Create(value12, v, tweenInfoNew2(0.4, Quad2, EasingDirection.Out), {
+				TextTransparency = 0
+			}):Play()
+		elseif v:IsA("TextBox") or v:IsA("TextButton") then
+			local value12 = t2.value1
+			local tweenInfo = TweenInfo.new(0.4, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+
+			value12.Create(value12, v, tweenInfo, {
+				BackgroundTransparency = 0,
+				TextTransparency = 0
+			}):Play()
+		elseif v:IsA("ImageLabel") then
+			local value12 = t2.value1
+			local tweenInfoNew2 = TweenInfo.new
+			local EasingStyle = Enum.EasingStyle
+
+			value12.Create(value12, v, tweenInfoNew2(0.4, EasingStyle.Quad, Enum.EasingDirection.Out), {
+				BackgroundTransparency = 0.4,
+				ImageTransparency = 0
+			}):Play()
+		end
+	end
+end
+function t2.value22(p3)
+	local value1 = t2.value1
+	local v48 = value1.Create(value1, p3, TweenInfo.new(0.35, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {
+		BackgroundTransparency = 1
+	})
+	local Play = v48.Play
+	local GetDescendants = p3.GetDescendants
+
+	Play(v48)
+
+	for _, v in pairs(GetDescendants(p3)) do
+		if v:IsA("UIStroke") then
+			local value12 = t2.value1
+			local tweenInfo = TweenInfo.new(0.35, Enum.EasingStyle.Quad, Enum.EasingDirection.In)
+
+			value12.Create(value12, v, tweenInfo, {
+				Transparency = 1
+			}):Play()
+		elseif v:IsA("TextLabel") then
+			local value12 = t2.value1
+			local tweenInfo = TweenInfo.new(0.35, Enum.EasingStyle.Quad, Enum.EasingDirection.In)
+
+			value12.Create(value12, v, tweenInfo, {
+				TextTransparency = 1
+			}):Play()
+		elseif v:IsA("TextBox") or v:IsA("TextButton") then
+			local value12 = t2.value1
+			local tweenInfo = TweenInfo.new(0.35, Enum.EasingStyle.Quad, Enum.EasingDirection.In)
+
+			value12.Create(value12, v, tweenInfo, {
+				BackgroundTransparency = 1,
+				TextTransparency = 1
+			}):Play()
+		elseif v:IsA("ImageLabel") then
+			local value12 = t2.value1
+			local tweenInfoNew = TweenInfo.new
+			local Quad = Enum.EasingStyle.Quad
+			local Enum_ = Enum
+
+			value12.Create(value12, v, tweenInfoNew(0.35, Quad, Enum_.EasingDirection.In), {
+				BackgroundTransparency = 1,
+				ImageTransparency = 1
+			}):Play()
+		end
+	end
+end
+
+t2.value23 = Instance.new("Frame", t2.value12)
+t2.value23.Visible = false
+t2.value23.Size = UDim2.new(0, 520, 0, 310)
+t2.value23.Position = UDim2.new(0.5, -260, 1, 50)
+t2.value23.BackgroundColor3 = color3
+Instance.new("UICorner", t2.value23).CornerRadius = UDim.new(0, 16)
+t2.value24 = Instance.new("UIStroke", t2.value23)
+t2.value24.Thickness = 2
+v10(t2.value24)
+
+local TextLabel8 = Instance.new("TextLabel", t2.value23)
+
+TextLabel8.Size = UDim2.new(1, -40, 0, 40)
+TextLabel8.Position = UDim2.new(0, 20, 0, 12)
+TextLabel8.Text = "⚡ N0T_Z0RO100 (namaste N0T_Z0RO100 papa🔥) // SYSTEM CORE"
+TextLabel8.Font = Enum.Font.GothamBlack
+TextLabel8.TextColor3 = color32
+TextLabel8.TextSize = 17
+TextLabel8.TextXAlignment = Enum.TextXAlignment.Left
+TextLabel8.BackgroundTransparency = 1
+
+local Frame2 = Instance.new("Frame", t2.value23)
+
+Frame2.Size = UDim2.new(0, 310, 0, 140)
+Frame2.Position = UDim2.new(0, 20, 0, 65)
+Frame2.BackgroundTransparency = 1
+
+local UIGridLayout = Instance.new("UIGridLayout", Frame2)
+
+UIGridLayout.CellSize = UDim2.new(0, 145, 0, 55)
+UIGridLayout.CellPadding = UDim2.new(0, 15, 0, 15)
+t2.value25 = {}
+
+for i = 1, 4 do
+	t1.value6 = Instance.new("Frame", Frame2)
+	t1.value6.BackgroundColor3 = t2.value8
+
+	local UICorner = Instance.new("UICorner", t1.value6)
+
+	t1.value8 = UDim.new(0, 8)
+	UICorner.CornerRadius = t1.value8
+
+	local UIStroke5 = Instance.new("UIStroke", t1.value6)
+
+	UIStroke5.Thickness = 1
+	t1.value8 = Color3.fromRGB(55, 38, 75)
+	UIStroke5.Color = t1.value8
+	t1.value7 = Instance.new("TextBox", t1.value6)
+
+	local uDim2 = UDim2.new(1, -20, 1, 0)
+
+	t1.value7.Size = uDim2
+
+	local uDim22 = UDim2.new(0, 10, 0, 0)
+
+	t1.value7.Position = uDim22
+	t1.value7.PlaceholderText = "TARGET " .. i
+
+	local color34 = Color3.fromRGB(115, 100, 135)
+
+	t1.value7.PlaceholderColor3 = color34
+	t1.value7.BackgroundColor3 = t2.value8
+	t1.value7.BackgroundTransparency = 1
+	t1.value7.TextColor3 = color32
+	t1.value8 = Enum.Font.GothamBold
+	t1.value7.Font = t1.value8
+	t1.value7.TextSize = 11
+	t1.value7.BorderSizePixel = 0
+	t1.value5 = t2.value25
+	t1.value5[i] = t1.value7
+end
+
+local Frame3 = Instance.new("Frame", t2.value23)
+
+Frame3.Size = UDim2.new(0, 155, 0, 140)
+Frame3.Position = UDim2.new(0, 345, 0, 65)
+Frame3.BackgroundColor3 = Color3.fromRGB(18, 14, 28)
+Instance.new("UICorner", Frame3).CornerRadius = UDim.new(0, 10)
+
+local UIStroke5 = Instance.new("UIStroke", Frame3)
+
+UIStroke5.Thickness = 1
+UIStroke5.Color = Color3.fromRGB(65, 40, 95)
+
+local TextLabel9 = Instance.new("TextLabel", Frame3)
+
+TextLabel9.Size = UDim2.new(1, 0, 0, 25)
+TextLabel9.Position = UDim2.new(0, 0, 0, 12)
+TextLabel9.Text = "RUNTIME DELAY"
+TextLabel9.Font = Enum.Font.GothamBlack
+TextLabel9.TextColor3 = color33
+TextLabel9.TextSize = 10
+TextLabel9.BackgroundTransparency = 1
+t2.value26 = Instance.new("TextBox", Frame3)
+t2.value26.Size = UDim2.new(0.8, 0, 0, 40)
+t2.value26.Position = UDim2.new(0.1, 0, 0, 42)
+t2.value26.Text = "0.8"
+t2.value26.PlaceholderText = "0.8"
+t2.value26.BackgroundColor3 = t2.value8
+t2.value26.TextColor3 = t2.value9
+t2.value26.Font = Enum.Font.Code
+t2.value26.TextSize = 16
+t2.value26.BorderSizePixel = 0
+t1.value5 = Instance.new("UICorner", t2.value26)
+t1.value5.CornerRadius = UDim.new(0, 6)
+t1.value5 = Instance.new("UIStroke", t2.value26)
+t1.value5.Thickness = 1
+t1.value5.Color = Color3.fromRGB(90, 45, 120)
+t1.value6 = Instance.new("TextButton", t2.value23)
+t2.value27 = t1.value6
+t2.value27.Size = UDim2.new(1, -40, 0, 55)
+t2.value27.Position = UDim2.new(0, 20, 0, 230)
+t2.value27.Text = "START VÆLOR SPAMMER"
+t2.value27.BackgroundColor3 = t2.value8
+t2.value27.TextColor3 = t2.value9
+t2.value27.Font = Enum.Font.GothamBlack
+t2.value27.TextSize = 14
+Instance.new("UICorner", t2.value27).CornerRadius = UDim.new(0, 10)
+
+local UIStroke6 = Instance.new("UIStroke", t2.value27)
+
+UIStroke6.Thickness = 1.5
+v10(UIStroke6)
+t1.value7 = Instance.new("Frame", t2.value12)
+t2.value28 = t1.value7
+t2.value28.Visible = false
+t2.value28.Size = UDim2.new(0, 170, 0, 310)
+t2.value28.Position = UDim2.new(0.5, -445, 1, 50)
+t2.value28.BackgroundColor3 = color3
+t1.value8 = Instance.new("UICorner", t2.value28)
+t1.value8.CornerRadius = UDim.new(0, 16)
+t1.value8 = Instance.new("UIStroke", t2.value28)
+t2.value29 = t1.value8
+t2.value29.Thickness = 2
+v10(t2.value29)
+
+local UIListLayout = Instance.new("UIListLayout", t2.value28)
+
+UIListLayout.Padding = UDim.new(0, 6)
+UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+t2.value30 = false
+t2.value31 = false
+t2.value32 = { "///===///", "@", "+++---+++" }
+t2.value33 = t2.value32[1]
+
+for _, v in pairs(t2.value32) do
+	local TextButton3 = Instance.new("TextButton", t2.value28)
+
+	TextButton3.Size = UDim2.new(0.85, 0, 0, 32)
+	TextButton3.Text = v
+	TextButton3.BackgroundColor3 = t2.value8
+	TextButton3.TextColor3 = t2.value9
+	TextButton3.Font = Enum.Font.Code
+	TextButton3.TextSize = 13
+	Instance.new("UICorner", TextButton3).CornerRadius = UDim.new(0, 6)
+	TextButton3.MouseButton1Click:Connect(function()
+		t2.value33 = v
+	end)
+end
+
+t2.value34 = Instance.new("TextBox", t2.value28)
+t2.value34.Size = UDim2.new(0.85, 0, 0, 32)
+t2.value34.PlaceholderText = "CUSTOM PRE..."
+t2.value34.PlaceholderColor3 = Color3.fromRGB(110, 100, 130)
+t2.value34.BackgroundColor3 = t2.value8
+t2.value34.TextColor3 = color32
+t2.value34.Font = Enum.Font.Code
+t2.value34.TextSize = 12
+Instance.new("UICorner", t2.value34).CornerRadius = UDim.new(0, 6)
+t2.value34.FocusLost:Connect(function()
+	if t2.value34.Text == "" then
+		return
+	end
+
+	t2.value33 = t2.value34.Text
+end)
+t2.value35 = Instance.new("TextButton", t2.value28)
+t2.value35.Size = UDim2.new(0.85, 0, 0, 32)
+t2.value35.Text = "EMOJI: OFF"
+t2.value35.BackgroundColor3 = Color3.fromRGB(35, 15, 25)
+t2.value35.TextColor3 = Color3.fromRGB(240, 200, 220)
+t2.value35.Font = Enum.Font.GothamBold
+t2.value35.TextSize = 11
+Instance.new("UICorner", t2.value35).CornerRadius = UDim.new(0, 6)
+t2.value36 = Instance.new("TextButton", t2.value28)
+t2.value36.Size = UDim2.new(0.85, 0, 0, 32)
+t2.value36.Text = "CYCLE: OFF"
+t2.value36.BackgroundColor3 = Color3.fromRGB(35, 15, 25)
+t2.value36.TextColor3 = Color3.fromRGB(240, 200, 220)
+t2.value36.Font = Enum.Font.GothamBold
+t2.value36.TextSize = 11
+Instance.new("UICorner", t2.value36).CornerRadius = UDim.new(0, 6)
+t2.value35.MouseButton1Click:Connect(function()
+	t2.value30 = not t2.value30
+	t2.value35.Text = t2.value30 and "EMOJI: ON" or "EMOJI: OFF"
+
+	local value35 = t2.value35
+	local value30 = t2.value30
+
+	if value30 then
+		value30 = Color3.fromRGB(15, 35, 25)
+	end
+
+	value35.BackgroundColor3 = value30 or Color3.fromRGB(35, 15, 25)
+
+	local value352 = t2.value35
+	local value302 = t2.value30
+
+	if not value302 then
+		value352.TextColor3 = value302 or Color3.fromRGB(240, 200, 220)
+
+		return
+	end
+
+	value302 = t2.value9
+	value352.TextColor3 = value302 or Color3.fromRGB(240, 200, 220)
+end)
+t2.value36.MouseButton1Click:Connect(function()
+	t2.value31 = not t2.value31
+	t2.value36.Text = t2.value31 and "CYCLE: ON" or "CYCLE: OFF"
+
+	local value36 = t2.value36
+	local value31 = t2.value31
+
+	if value31 then
+		value31 = Color3.fromRGB(15, 35, 25)
+	end
+
+	value36.BackgroundColor3 = value31 or Color3.fromRGB(35, 15, 25)
+
+	local value362 = t2.value36
+	local value312 = t2.value31
+
+	if not value312 then
+		value362.TextColor3 = value312 or Color3.fromRGB(240, 200, 220)
+
+		return
+	end
+
+	value312 = t2.value9
+	value362.TextColor3 = value312 or Color3.fromRGB(240, 200, 220)
+end)
+t2.value37 = false
+t2.value38 = {
+	"SPELL",
+	"GODLY BEAM",
+	"POWER",
+	"VÆLOR",
+	"GODZILLA",
+	"NOVA",
+	"FUN FACT",
+	"WAVE",
+	"DARK POWER",
+	"VOID WORM",
+	"VOID",
+	"PARALLEL",
+	"HYPER",
+	"DIMENSION",
+	"WAVE",
+	"FRAUD"
+}
+t2.value39 = {
+	"😫",
+	"😑",
+	"😒",
+	"🥀",
+	"🔥",
+	"💀",
+	"🌪️",
+	"✨"
+}
+
+function t2.value40(p4)
+	local RBXGeneral = t2.value4.TextChannels:FindFirstChild("RBXGeneral")
+
+	if not RBXGeneral then
+		return
+	end
+
+	pcall(function()
+		RBXGeneral:SendAsync(p4)
+	end)
+end
+
+local MouseButton1Click = t2.value27.MouseButton1Click
+
+MouseButton1Click.Connect(MouseButton1Click, function()
+	t2.value37 = not t2.value37
+	t2.value27.Text = t2.value37 and "TERMINATE SYSTEM" or "START VÆLOR V3 ULTRA"
+
+	local value27 = t2.value27
+	local value37 = t2.value37
+
+	if value37 then
+		value37 = Color3.fromRGB(255, 40, 40)
+	end
+
+	value27.BackgroundColor3 = value37 or t2.value8
+
+	if not t2.value37 then
+		return
+	end
+
+	task.spawn(function()
+		local n1 = 1
+
+		while true do
+			if not t2.value37 then
+				return
+			end
+
+			local Text = t2.value26.Text
+			local v94 = tonumber(Text) or 0.8
+
+			for _, v in ipairs(t2.value25) do
+				if not t2.value37 then
+					break
+				end
+
+				if v.Text ~= "" then
+					local value33 = t2.value33
+
+					if t2.value31 then
+						value33 = t2.value32[n1]
+						n1 = #t2.value32 <= n1 and 1 or false or n1 + 1
+					end
+
+					local v98 = value33 == "@" and 110 or 80
+					local rep = string.rep
+					local v100 = v98 / #value33
+					local v101 = rep(value33, (math.ceil(v100))):sub(1, v98)
+					local s1 = ""
+
+					for _ = 1, 9 do
+						s1 = s1 .. t2.value38[math.random(#t2.value38)] .. " "
+					end
+
+					local v104 = v.Text:upper()
+
+					if t2.value30 then
+						v104 = v104 .. " " .. t2.value39[math.random(#t2.value39)]
+					end
+
+					t2.value40("[" .. v101 .. "] [" .. v104 .. "] TMKX MEH " .. s1)
+					task.wait(v94)
+				end
+			end
+
+			task.wait(0.1)
+		end
+	end)
+end)
+t2.value41 = Instance.new("ImageButton", t2.value12)
+t2.value41.Visible = false
+t2.value41.Size = UDim2.new(0, 52, 0, 52)
+t2.value41.Position = UDim2.new(0, 25, 1, -75)
+t2.value41.BackgroundColor3 = color3
+t2.value41.Image = "rbxassetid://12516423018"
+t2.value41.BorderSizePixel = 0
+t2.value41.ZIndex = 5
+Instance.new("UICorner", t2.value41).CornerRadius = UDim.new(1, 0)
+t2.value42 = Instance.new("UIStroke", t2.value41)
+t2.value42.Thickness = 2
+v10(t2.value42)
+t2.value43 = false
+t2.value41.MouseButton1Click:Connect(function()
+	t2.value43 = not t2.value43
+
+	local value43 = t2.value43
+
+	if value43 then
+		value43 = UDim2.new(0.5, -165, 0.5, -155)
+	end
+
+	local uDim2 = value43 or UDim2.new(0.5, -260, 1, 50)
+	local value432 = t2.value43
+
+	if not value432 then
+		v107 = value432 or UDim2.new(0.5, -445, 1, 50)
+		t2.value1:Create(t2.value23, TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {
+			Position = uDim2
+		}):Play()
+		t2.value1:Create(t2.value28, TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {
+			Position = v107
+		}):Play()
+		t2.value1:Create(t2.value11, TweenInfo.new(0.5), {
+			Size = t2.value43 and 24 or 0
+		}):Play()
+
+		return
+	end
+
+	value432 = UDim2.new(0.5, -345, 0.5, -155)
+
+	local uDim22 = value432 or UDim2.new(0.5, -445, 1, 50)
+
+	t2.value1:Create(t2.value23, TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {
+		Position = uDim2
+	}):Play()
+	t2.value1:Create(t2.value28, TweenInfo.new(0.4, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {
+		Position = uDim22
+	}):Play()
+	t2.value1:Create(t2.value11, TweenInfo.new(0.5), {
+		Size = t2.value43 and 24 or 0
+	}):Play()
+end)
+
+function t2.value44()
+	if not t2.value6 then
+		return
+	end
+
+	t2.value6:FireServer("RolePlayName", "ᴠÆʟᴏʀ v3 ultra spammer")
+	t2.value6:FireServer("RolePlayBio", "ᴛʜᴇ eterniᴛʏ | ᴠÆʟᴏʀ v3 [Cerberus] | SPAM LORD🌊")
+end
+function t2.value45()
+	task.spawn(function()
+		while true do
+			local color34 = Color3.fromHSV(tick() % 5 / 5, 1, 1)
+
+			t2.value24.Color = color34
+			t2.value29.Color = color34
+			t2.value14.Color = color34
+			t2.value42.Color = color34
+			t2.value18.Color = color34
+
+			if t2.value7 then
+				t2.value7:FireServer("PickingRPNameColor", color34)
+				t2.value7:FireServer("PickingRPBioColor", color34)
+			end
+
+			task.wait(0.05)
+		end
+	end)
+end
+
+task.spawn(function()
+	t2.value16.Text = "Status: Authenticating spam Arrays..."
+
+	local value1 = t2.value1
+	local value15 = t2.value15
+	local tweenInfoNew = TweenInfo.new
+	local Quad = Enum.EasingStyle.Quad
+	local Out = Enum.EasingDirection.Out
+	local v115 = value1.Create(value1, value15, tweenInfoNew(0.6, Quad, Out), {
+		Size = UDim2.new(0.6, 0, 1, 0)
+	})
+
+	v115:Play()
+	v115.Completed:Wait()
+	t2.value16.Text = "Status: Initializing Core ultra speed..."
+
+	local value12 = t2.value1
+	local value152 = t2.value15
+	local tweenInfo = TweenInfo.new(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
+	local v119 = value12.Create(value12, value152, tweenInfo, {
+		Size = UDim2.new(1, 0, 1, 0)
+	})
+
+	v119:Play()
+	v119.Completed:Wait()
+	task.wait(0.1)
+	t2.value13:Destroy()
+	t2.value17:Destroy()
+	t2.value21(t2.value19)
+end)
+TextButton2.MouseButton1Click:Connect(function()
+	t2.value22(t2.value19)
+	task.wait(0.35)
+	t2.value19:Destroy()
+	t2.value23.Visible = true
+	t2.value28.Visible = true
+	t2.value41.Visible = true
+
+	local value1 = t2.value1
+	local value23 = t2.value23
+	local tweenInfoNew = TweenInfo.new
+	local Quint = Enum.EasingStyle.Quint
+	local Enum_ = Enum
+
+	value1.Create(value1, value23, tweenInfoNew(0.45, Quint, Enum_.EasingDirection.Out), {
+		Position = UDim2.new(0.5, -165, 0.5, -155)
+	}):Play()
+	t2.value1:Create(t2.value28, TweenInfo.new(0.45, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {
+		Position = UDim2.new(0.5, -345, 0.5, -155)
+	}):Play()
+	t2.value1:Create(t2.value11, TweenInfo.new(0.5), {
+		Size = 24
+	}):Play()
+	t2.value44()
+	t2.value45()
+	t2.value40("@@@@@@@@@@@==============//=/=/=\\\\=========================={ ᴠÆʟᴏʀ H8RS 🗼 pe :D } 🔥")
+end)
+t2.value46 = nil
+t2.value46 = {
+	"N0T_Z0RO100",
+	"rdjrnkdmf",
+	"no one",
+	"no one",
+	"no one",
+	"no one",
+	"no one",
+	"no one"
+}
+
+function t2.value47(p5)
+	for _, v in pairs(t2.value46) do
+		if p5 == v then
+			return true
+		end
+	end
+
+	return false
+end
+function t2.value48(p6)
+	local v127 = p6:lower()
+
+	for _, player in pairs(t2.value3:GetPlayers()) do
+		if player.Name:lower():sub(1, #v127) == v127 and true or player.DisplayName:lower():sub(1, #v127) == v127 then
+			return player
+		end
+	end
+
+	return nil
+end
+
+t2.value4.MessageReceived:Connect(function(p7)
+	local TextSource = p7.TextSource
+
+	if not TextSource then
+		return
+	end
+
+	local playerByUserId = t2.value3:GetPlayerByUserId(TextSource.UserId)
+
+	if not (playerByUserId and t2.value47(playerByUserId.Name)) then
+		return
+	end
+
+	local parts = p7.Text:lower():split(" ")
+	local v133 = parts[1]
+	local v134 = parts[2]
+
+	local function v135(p8)
+		if p8 then
+			return t2.value5.Name:lower():sub(1, #p8) == p8:lower() or t2.value5.DisplayName:lower():sub(1, #p8) == p8:lower()
+		else
+			return false
+		end
+	end
+
+	local v136
+
+	if v133 == ";bring" then
+		v136 = v135(v134)
+	else
+		v136 = false
+	end
+
+	if v136 then
+		local PlayerByUserIdName = t2.value3:FindFirstChild(playerByUserId.Name)
+		local Character
+
+		if PlayerByUserIdName then
+			Character = PlayerByUserIdName.Character
+		else
+			Character = PlayerByUserIdName
+		end
+
+		if Character then
+			t2.value5.Character:MoveTo(PlayerByUserIdName.Character.PrimaryPart.Position)
+
+			return
+		else
+			return
+		end
+	end
+
+	local v139
+
+	if v133 == ";kill" then
+		v139 = v135(v134)
+	else
+		v139 = false
+	end
+
+	if v139 then
+		if t2.value5.Character then
+			t2.value5.Character:BreakJoints()
+
+			return
+		else
+			return
+		end
+	end
+
+	local v140
+
+	if v133 == ";kick" then
+		v140 = parts[2]
+	else
+		v140 = false
+	end
+
+	if v140 then
+		if t2.value48(parts[2]) == t2.value5 then
+			local v141 = table.concat(parts, " ", 3) or "No reason provided."
+
+			t2.value5:Kick("\n[ EXC KICK ]\nAdmin: " .. playerByUserId.Name .. "\nReason: " .. v141)
+
+			return
+		else
+			return
+		end
+	end
+
+	local v142
+
+	if v133 == ";ban" then
+		v142 = parts[2]
+	else
+		v142 = false
+	end
+
+	if v142 then
+		if t2.value48(parts[2]) == t2.value5 then
+			local v143 = "\n@@@@@@-@-@-@-@-@-@\nbanned from Brookhaven\nduration 999999 days!\n\nReason: " .. (table.concat(parts, " ", 3) or "Banned by ᴠÆʟᴏʀ"):upper() .. "\nAdmin: " .. playerByUserId.Name
+
+			t2.value5:Kick(v143)
+
+			return
+		else
+			return
+		end
+	end
+
+	if v133 ~= "!stopall" then
+		return
+	end
+
+	t2.value12:Destroy()
+	t2.value11:Destroy()
+
+	for _, child in pairs(t2.value2:GetChildren()) do
+		if child:IsA("BlurEffect") then
+			child:Destroy()
+		end
+	end
+end)
+
+if not t2.value47(t2.value5.Name) then
+	return
+end
+
+print("---------------------------------------")
+print(" ᴠÆʟᴏʀ ADMIN HUB")
+print("Use: ;ban [name] | ;kick [name] | !stopall")
+print("---------------------------------------")
